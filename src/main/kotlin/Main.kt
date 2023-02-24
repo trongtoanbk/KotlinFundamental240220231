@@ -17,4 +17,20 @@ fun main(args: Array<String>) {
 //    val pi =3.14
 //    val address ="199 lý thường kiệt"
 
+//    //2. Kiểu dữ liệu
+//    // Kiểu String: Chuỗi
+//    var text: String ="Hello"
+//    // kiểu số nguyên: Int, Long
+//    var age: Int =29
+//    // Kiểu số thực: Float, Double
+//    var weight: Float = 74.9f
+
+//    var query = "SELECT * FROM tableName WHERE Id =1 ORDER BY DESC"
+//    var query1 ="""
+//        SELECT *FROM TableName
+//        WHERE Id =1
+//        ORDER BY DESC
+//    """.trimIndent()
+//    print(query1)
+
 }
