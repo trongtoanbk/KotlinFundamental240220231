@@ -204,14 +204,12 @@ fun main(args: Array<String>) {
     }
 
     showMessage(" Đỗ Trọng Toàn")
-    var cat = Animal()
-    cat.name = "Kity"
-    cat.weight = 1.2
+    var cat = Animal("Kitty",1.2)
+
     println("Name: ${cat.name} , weight: ${cat.weight.toString()} ")
 
-    var cat2 = Animal()
-    cat2.name = "Doremon"
-    cat2.weight = 1.5
+    var cat2 = Animal("Doremon", 1.5)
+
     println("Name: ${cat2.name} , weight: ${cat2.weight.toString()} ")
 
 
